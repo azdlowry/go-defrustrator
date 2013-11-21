@@ -4,7 +4,9 @@
 // @downloadURL https://github.com/azdlowry/go-defrustrator/raw/master/go-defrustrator.user.js
 // @description Greasemonkey script to defrustrate the ThoughtWorks Go user interface experience.
 // @version     0.44
-// @include     http://*:8153/go/*
+// @include     http://*:8153/go/pipelines*
+// @include     http://*:8153/go/environments*
+// @include     http://*:8153/go/admin*
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.js
 // @grant       none
 // @copyright   2013 
