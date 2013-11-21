@@ -113,5 +113,12 @@ function coloriseOutput() {
     }
 }
 
+function addShowHideOnPipelineGroups() {
+    jQuery('.content_wrapper_inner h2')
+    	.append('<a class="link_as_button" href="javascript:void(0);" id="select_all_pipelines">Show/Hide</a>')
+    	.click(function() { jQuery(this).siblings().toggle(); });
+}
+
 addConfigLink();
 coloriseOutput();
+addShowHideOnPipelineGroups();
